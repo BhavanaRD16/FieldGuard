@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Field Guard",
+    "slug": "attendance-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#0A0A0F",
+    "sdkVersion": "54.0.0",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Field Guard to access your camera for face verification."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Field Guard to access your location for attendance."
+        }
+      ],
+      "expo-sqlite",
+      "expo-secure-store"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.fieldguard.attendance"
+    },
+    "android": {
+      "package": "com.fieldguard.attendance",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    }
+  }
+}

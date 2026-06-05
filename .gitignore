@@ -1,0 +1,11 @@
+venv/
+node_modules/
+__pycache__/
+.env
+.expo/
+*.db
+attendance-backend/attendance.db
+attendance-backend/saved_models/photos/
+attendance-frontend/temp_spoof/
+dummy.jpg
+testimg.jpg
